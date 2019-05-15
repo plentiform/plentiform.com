@@ -1,0 +1,21 @@
+/* Components */
+@import url("/css/components/hero.css"); 
+
+/* Colors */
+:root {
+  --color-primary: #61d4ff; /* blue */
+  --color-secondary: #91ff84; /* green */
+  --color-tertiary: #fffc7d; /* yellow */
+  --color-base: #3c3c3c; /* gray */
+  --color-base-dark: #343434; /* dark gray */
+}
+
+/* Fonts */
+:root {
+  --font-main: 'Lato', sans-serif;
+}
+
+/* Base */
+body {
+  font-family: var(--font-main);
+}
