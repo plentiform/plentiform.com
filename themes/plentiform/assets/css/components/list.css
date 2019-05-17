@@ -1,5 +1,5 @@
-#list .container {
-  box-shadow: 2px 2px 4px rgba(0,0,0, .08);
+#list .inner {
+  box-shadow: 2px 2px 4px rgba(0,0,0, .2);
   border-radius: 5px;
   padding: 100px 0;
   display: grid;
@@ -16,10 +16,10 @@
   grid-row: 2;
 }
 /* Background colors */
-#list {
+#list .container {
   position: relative;
 }
-#list:before {
+#list .container:before {
   content: "";
   display: block;
   width: 500px;
@@ -31,7 +31,7 @@
   transform: rotate(5deg);
   background: var(--color-accent);
 }
-#list:after {
+#list .container:after {
   content: "";
   display: block;
   width: 500px;

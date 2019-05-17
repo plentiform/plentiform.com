@@ -17,7 +17,8 @@
 
 /* Layout */
 :root {
-  --max-width: 1200px;
+  --container-width: 1200px;
+  --inner-width: 925px;
 }
 
 /* Base */
@@ -27,13 +28,25 @@ html, body {
   height: 100%;
 }
 .container {
-  max-width: var(--max-width);
+  max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 20px;
+}
+.inner {
+  max-width: var(--inner-width);
+  margin: 0 auto;
 }
 ul,ol {
   margin: 0;
   padding: 0;
+}
+pre {
+  font-size: 1.15em;
+  background-color: var(--color-base-dark);
+  background-color: var(--color-primary);
+  color: var(--color-base-lightest);
+  display: inline-block;
+  padding: 3px 5px;
 }
 
 /* Elements */

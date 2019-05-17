@@ -5,7 +5,7 @@
     </div>
     <ol class="counter">
     {{ range .how_to.steps }}
-      <li>{{ .step }}</li>
+      <li>{{ .step | safeHTML }}</li>
     {{ end }}
     </ol>
   </div>

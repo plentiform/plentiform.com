@@ -1,14 +1,16 @@
 <div id="list">
   <div class="container">
-    <div class="title">
-      <h2>{{ .list.title }}</h2>
-    </div>
-    {{ range .list.columns }}
-      <ul class="checkmark">
-      {{ range .items }}
-        <li>{{ .item }}</li>
+    <div class="inner">
+      <div class="title">
+        <h2>{{ .list.title }}</h2>
+      </div>
+      {{ range .list.columns }}
+        <ul class="checkmark">
+        {{ range .items }}
+          <li>{{ .item }}</li>
+        {{ end }}
+        </ul>
       {{ end }}
-      </ul>
-    {{ end }}
+    </div>
   </div>
 </div>
