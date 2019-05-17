@@ -3,8 +3,10 @@
   --color-primary: #61d4ff; /* blue */
   --color-secondary: #91ff84; /* green */
   --color-tertiary: #fffc7d; /* yellow */
-  --color-base: #3c3c3c; /* gray */
-  --color-base-dark: #343434; /* dark gray */
+  --color-base-lightest: #ffffff; /* white */
+  --color-base-dark: #3c3c3c; /* gray */
+  --color-base-darker: #343434; /* dark gray */
+  --color-base-darkest: #000000; /* black */
 }
 
 /* Fonts */
@@ -12,10 +14,19 @@
   --font-main: 'Lato', sans-serif;
 }
 
+/* Layout */
+:root {
+  --max-width: 1200px;
+}
+
 /* Base */
 body {
   font-family: var(--font-main);
   margin: 0;
+}
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 ul {
   margin: 0;
