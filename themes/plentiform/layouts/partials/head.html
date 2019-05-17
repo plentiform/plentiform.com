@@ -3,13 +3,13 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,900" rel="stylesheet">
 
   {{ $style := resources.Get "main.css" }}
-
   {{ $components := readDir "themes/plentiform/assets/components" }}
   {{ range $components }}
     {{ $component := resources.Get (printf "components/%s" .Name) }}
     {{ $style = slice $component $style | resources.Concat .Name }}
   {{ end }}
 
+  {{ $style = slice $style | resources.Concat "all.css" }}
   {{ $style := $style | minify | fingerprint }}  
   <link rel="stylesheet" href="{{ $style.Permalink }}">
 
