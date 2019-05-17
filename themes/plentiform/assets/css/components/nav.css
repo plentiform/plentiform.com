@@ -7,18 +7,21 @@ nav {
   background-color: var(--color-base-lightest);
   padding: 10px 0;
 }
-.container {
-  display: grid;
-  grid-template-columns: 1fr auto auto;
-  align-items: center;
-}
-
 /* Push content below fixed navbar */
 #content {
   margin-top: 100px;
 }
-
-ul#main-menu li {
+nav .container {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+}
+nav li {
   display: inline-block;
   list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: var(--color-base-dark);
 }

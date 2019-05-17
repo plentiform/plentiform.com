@@ -2,10 +2,10 @@
   <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,900" rel="stylesheet">
 
-  {{ $style := resources.Get "main.css" }}
-  {{ $components := readDir "themes/plentiform/assets/components" }}
+  {{ $style := resources.Get "css/main.css" }}
+  {{ $components := readDir "themes/plentiform/assets/css/components" }}
   {{ range $components }}
-    {{ $component := resources.Get (printf "components/%s" .Name) }}
+    {{ $component := resources.Get (printf "css/components/%s" .Name) }}
     {{ $style = slice $component $style | resources.Concat .Name }}
   {{ end }}
 
