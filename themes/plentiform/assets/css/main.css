@@ -55,6 +55,13 @@ ol.counter li::before {
   font-weight: bold;
   font-size: 1.5rem;
 }
+ul.checkmark {
+  list-style-image: url(/images/checkmark.svg);
+  list-style-position: inside;
+}
+ul.checkmark li {
+  margin-bottom: 20px;
+}
 .button {
   padding: 8px 15px;
   background-image: linear-gradient(to right, var(--color-accent-dark), var(--color-accent));
