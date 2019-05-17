@@ -1,8 +1,11 @@
 #list .container {
   box-shadow: 2px 2px 4px rgba(0,0,0, .08);
   border-radius: 5px;
+  padding: 100px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  background-color: var(--color-base-lightest);
 }
 #list .title {
   grid-column-start: 1;
@@ -11,4 +14,32 @@
 }
 #list ul {
   grid-row: 2;
+}
+/* Background colors */
+#list {
+  position: relative;
+}
+#list:before {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  top: -20px;
+  left: 75px;
+  transform: rotate(5deg);
+  background: var(--color-accent);
+}
+#list:after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  bottom: -20px;
+  right: 75px;
+  transform: rotate(5deg);
+  background: var(--color-primary);
 }
