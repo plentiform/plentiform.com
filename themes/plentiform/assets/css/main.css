@@ -65,3 +65,11 @@ ol.counter li::before {
   background-color: var(--color-primary);
   color: var(--color-base-lightest);
 }
+.title {
+  text-align: center;
+  margin-bottom: 2.5vw;
+}
+.title h2 {
+  display: inline-block;
+  border-bottom: 4px solid var(--color-accent);
+}

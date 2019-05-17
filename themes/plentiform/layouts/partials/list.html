@@ -4,9 +4,11 @@
       <h2>{{ .list.title }}</h2>
     </div>
     {{ range .list.columns }}
+      <ul>
       {{ range .items }}
-        {{ .item }}
+        <li>{{ .item }}</li>
       {{ end }}
+      </ul>
     {{ end }}
   </div>
 </div>
