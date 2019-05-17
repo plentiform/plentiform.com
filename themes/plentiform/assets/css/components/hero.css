@@ -1,3 +1,12 @@
-.hero {
-  linear-gradient(var(--color-primary), var(--color-secondary));
+#hero {
+  background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+  color: var(--color-base-lightest);
+  height: 35vw;
+  display: flex;
+  align-items: center;
+}
+#hero .container {
+  flex: 1;
+  font-weight: 900;
+  font-size: 2rem;
 }

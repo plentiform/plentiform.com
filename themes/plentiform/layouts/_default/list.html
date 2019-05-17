@@ -1,8 +1,9 @@
 {{ define "main" }}
-list: {{ .Content }}
 {{ if (isset .Params "components") }}
   {{ range .Params.components }}
-    {{ .hero }}
+    {{ if .hero }}
+      {{ partial "hero.html" (dict "context" . "hero" .hero) }}
+    {{ end }}
   {{ end }}
 {{ end }}
 {{ end }}
