@@ -1,0 +1,3 @@
+.hero {
+  linear-gradient(var(--color-primary), var(--color-secondary));
+}

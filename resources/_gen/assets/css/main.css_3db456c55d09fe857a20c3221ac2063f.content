@@ -1,0 +1,1 @@
+:root{--color-primary: #61d4ff;--color-secondary: #91ff84;--color-tertiary: #fffc7d;--color-base: #3c3c3c;--color-base-dark: #343434}:root{--font-main: 'Lato', sans-serif}body{font-family:var(--font-main);margin:0}ul{margin:0;padding:0}
