@@ -1,0 +1,10 @@
+<div id="how-to">
+  <div class="container">
+    <h3>{{ .how_to.title }}</h3>
+    <ul>
+    {{ range .how_to.steps }}
+    <li>{{ .step }}</li>
+    {{ end }}
+    </ul>
+  </div>
+</div>
