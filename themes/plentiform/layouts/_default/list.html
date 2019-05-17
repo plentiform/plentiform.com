@@ -7,8 +7,8 @@
     {{ if .how_to }}
       {{ partial "how_to.html" (dict "context" . "how_to" .how_to) }}
     {{ end }}
-    {{ if .multi_column_list }}
-      {{ partial "multi_column_list.html" (dict "context" . "multi_column_list" .multi_column_list) }}
+    {{ if .list }}
+      {{ partial "list.html" (dict "context" . "list" .list) }}
     {{ end }}
   {{ end }}
 {{ end }}

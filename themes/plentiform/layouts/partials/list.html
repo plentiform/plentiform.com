@@ -1,9 +1,9 @@
-<div id="multi-column-list">
+<div id="list">
   <div class="container">
     <div class="title">
-      <h2>{{ .multi_column_list.title }}</h2>
+      <h2>{{ .list.title }}</h2>
     </div>
-    {{ range .multi_column_list.rows }}
+    {{ range .list.columns }}
       {{ range .items }}
         {{ .item }}
       {{ end }}
