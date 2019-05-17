@@ -1,0 +1,16 @@
+#how-to {
+  display: flex;
+  align-items: center;
+  padding: 8vw 0;
+}
+#how-to .title {
+  text-align: center;
+  margin-bottom: 2.5vw;
+}
+#how-to h2 {
+  display: inline-block;
+  border-bottom: 4px solid var(--color-accent);
+}
+#how-to li {
+  color: var(--color-base-dark);
+}

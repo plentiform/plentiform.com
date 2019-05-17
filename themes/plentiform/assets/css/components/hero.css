@@ -8,7 +8,7 @@
 #hero .container {
   flex: 1;
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 #hero a {
   color: var(--color-accent);
