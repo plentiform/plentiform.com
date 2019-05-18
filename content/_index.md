@@ -28,7 +28,7 @@ components:
       - item: Works with any website
       - item: Easy to use web UI
 - grid:
-    title: Plentiform loves JAMstack
+    title: Plentiform <img src="/images/heart.svg" />'s JAMstack
     description: We work with any Static Site Generator
     items:
       - item:

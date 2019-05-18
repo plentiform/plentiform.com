@@ -1,6 +1,6 @@
 <div id="grid">
   <div class="container">
-    <h2>{{ .grid.title }}</h2>
+    <h2>{{ .grid.title | safeHTML }}</h2>
     <div class="description">{{ .grid.description }}</div>
     {{ range .grid.items }}
       <a href="{{ .item.link }}" target="_blank" rel="noopener noreferrer">
