@@ -32,7 +32,7 @@ components:
     description: We work with any Static Site Generator
     items:
       - item:
-          image: /images/jekyll.png
+          image: /images/jekyll.svg
           link: https://jekyllrb.com/
       - item:
           image: /images/hugo.png
@@ -41,12 +41,12 @@ components:
           image: /images/hexo.png
           link: https://hexo.io/
       - item:
-          image: /images/gatsby.png
+          image: /images/gatsby.jpeg
           link: https://www.gatsbyjs.org/
       - item:
           image: /images/middleman.png
           link: https://middlemanapp.com/
       - item:
-          image: /images/gridsome.png
+          image: /images/gridsome.svg
           link: https://gridsome.org/
 ---
