@@ -27,4 +27,26 @@ components:
       - item: Verifies form structure
       - item: Works with any website
       - item: Easy to use web UI
+- grid:
+    title: Plentiform loves JAMstack
+    description: We work with any Static Site Generator
+    items:
+      - item:
+          image: /images/jekyll.png
+          link: https://jekyllrb.com/
+      - item:
+          image: /images/hugo.png
+          link: https://gohugo.io/
+      - item:
+          image: /images/hexo.png
+          link: https://hexo.io/
+      - item:
+          image: /images/gatsby.png
+          link: https://www.gatsbyjs.org/
+      - item:
+          image: /images/middleman.png
+          link: https://middlemanapp.com/
+      - item:
+          image: /images/gridsome.png
+          link: https://gridsome.org/
 ---

@@ -29,5 +29,5 @@ nav ul a {
   color: var(--color-base-dark);
 }
 nav ul a:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }

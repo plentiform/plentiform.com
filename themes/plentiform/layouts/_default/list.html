@@ -10,6 +10,9 @@
     {{ if .list }}
       {{ partial "list.html" (dict "context" . "list" .list) }}
     {{ end }}
+    {{ if .grid }}
+      {{ partial "grid.html" (dict "context" . "grid" .grid) }}
+    {{ end }}
   {{ end }}
 {{ end }}
 {{ end }}
