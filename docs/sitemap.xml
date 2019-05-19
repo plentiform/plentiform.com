@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://plentiform.com/categories/</loc>
-    <priority>0</priority>
+    <loc>https://plentiform.com/</loc>
+    <lastmod>2019-05-13T17:47:24-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://plentiform.com/</loc>
+    <loc>https://plentiform.com/categories/</loc>
     <priority>0</priority>
   </url>
   
