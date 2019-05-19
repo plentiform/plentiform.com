@@ -101,3 +101,6 @@ ul.checkmark li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.hidden {
+  display: none;
+}
