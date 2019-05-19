@@ -95,3 +95,9 @@ ul.checkmark li {
   display: inline-block;
   border-bottom: 4px solid var(--color-accent);
 }
+.rainbow-text:hover {
+  background: linear-gradient(to right, var(--color-accent-dark), var(--color-accent), var(--color-secondary), var(--color-primary), var(--color-primary-dark), var(--color-accent), var(--color-accent-dark));
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
