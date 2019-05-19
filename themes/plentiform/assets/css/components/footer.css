@@ -1,0 +1,36 @@
+footer {
+  background-color: var(--color-base-dark);
+  padding: 100px 0;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+footer ul {
+  border-left: 1px solid #505050;
+  padding-left: 20px;
+}
+footer li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+footer li:last-of-type {
+  margin-bottom: 0;
+}
+footer a {
+  color: var(--color-base-lightest);
+  text-decoration: none;
+}
+footer .brand svg text {
+  fill: var(--color-base-lightest);
+}
+footer .slogan {
+  color: var(--color-base-light);
+}
+#footer-bottom {
+  background-color: var(--color-base-darker);
+  color: var(--color-base-lightest);
+  padding: 10px 0;
+  text-align: center;
+}

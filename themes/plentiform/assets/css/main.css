@@ -6,6 +6,8 @@
   --color-accent: #ff9358; /* orange */
   --color-accent-dark: #ff6c1b; /* dark orange */
   --color-base-lightest: #ffffff; /* white */
+  --color-base-lighter: #f6f6f6; /* off white */
+  --color-base-light: #c5c5c5; /* light gray */
   --color-base-dark: #3c3c3c; /* gray */
   --color-base-darker: #343434; /* dark gray */
   --color-base-darkest: #000000; /* black */
