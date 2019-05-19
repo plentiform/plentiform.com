@@ -4,6 +4,9 @@ date: 2019-05-13T17:47:24-04:00
 draft: true
 components:
 - hero: An open source webform<br />backend for your <a href="https://jamstack.org/" target="_blank" rel="noopener noreferrer">JAMstack</a> sites.
+- diagram:
+    desktop: /images/pf_horizontal_diagram.svg
+    mobile: /images/pf_vertical_diagram.svg
 - how_to:
     title: How it works
     steps:

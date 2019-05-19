@@ -1,0 +1,16 @@
+#diagram {
+  text-align: center;
+  margin-top: -115px;
+  margin-bottom: -40px;
+}
+#diagram img {
+  max-width: 80%;
+}
+@media (max-width: 950px) {
+  #diagram {
+    margin-top: 40px;
+  }
+  #diagram img {
+    max-width: 100%;
+  }
+}

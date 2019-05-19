@@ -4,6 +4,9 @@
     {{ if .hero }}
       {{ partial "hero.html" (dict "context" . "hero" .hero) }}
     {{ end }}
+    {{ if .diagram }}
+      {{ partial "diagram.html" (dict "context" . "diagram" .diagram) }}
+    {{ end }}
     {{ if .how_to }}
       {{ partial "how_to.html" (dict "context" . "how_to" .how_to) }}
     {{ end }}
