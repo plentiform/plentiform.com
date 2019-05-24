@@ -22,3 +22,8 @@
 #grid img {
   max-width: 100%;
 }
+@media (max-width: 600px) {
+  #grid {
+    padding: 40px 0;
+  }
+}

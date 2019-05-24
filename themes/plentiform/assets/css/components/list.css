@@ -43,3 +43,19 @@
   transform: rotate(5deg);
   background: var(--color-primary);
 }
+
+@media (max-width: 600px) {
+  #list .container:before,
+  #list .container:after {
+    display: none;
+  }
+  #list .inner {
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #list .inner {
+    display: block;
+    text-align: center;
+  }
+}
